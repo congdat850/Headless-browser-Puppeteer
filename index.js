@@ -1,2 +1,4 @@
-const shotScreen = require("./shotScreen");
-shotScreen();
+// const shotScreen = require("./shotScreen");
+// shotScreen();
+const evaluate = require("./evaluate");
+evaluate();
