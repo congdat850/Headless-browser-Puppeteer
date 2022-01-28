@@ -1,5 +1,5 @@
 const puppeteer = require("puppeteer");
-(async () => {
+module.exports =  async () => {
   let articles;
 
   try {
@@ -45,4 +45,4 @@ const puppeteer = require("puppeteer");
       });
     })
   );
-})();
+};
